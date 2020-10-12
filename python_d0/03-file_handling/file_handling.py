@@ -26,7 +26,7 @@ def writer(opened: IO, data: Union[str, List[str]]) -> int:
 
 def closer(opened: IO) -> IO:
     try:
-        opened = opened.close()
+        opened.close()
         f = True
     except Exception:
         f = False
