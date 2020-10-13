@@ -48,19 +48,21 @@ Author: *Courtel Eliot*
    
    
    * **Python Day 02:**
-    * Path: `./python_d1`
-    * Validation:
-      Finished|Valid|Name|
-      -|-|-|
-      ✔️|⚪|`00-my_env`|
-      ✔️|⚪|`01-exec_cmd`|
-      ✔️|⚪|`02-proper_exec`|
-      ✔️|⚪|`03-remote_cmd`|
-      ✔️|⚪|`04-my_exceptions`|
-      ❌|⚪|`05-flask_basic`|
-      ❌|⚪|`06-flask_data`|
-      ❌|⚪|`07-putting_it_all_together`|
-      ❌|⚪|`08-flask_storage`|
+     * Path: `./python_d1`
+     * Validation:
+       Finished|Valid|Name|
+       -|-|-|
+       ✔️|⚪|`00-my_env`|
+       ✔️|⚪|`01-exec_cmd`|
+       ✔️|⚪|`02-proper_exec`|
+       ✔️|⚪|`03-remote_cmd`|
+       ✔️|⚪|`04-my_exceptions`|
+       ❌|⚪|`05-flask_basic`|
+       ❌|⚪|`06-flask_data`|
+       ❌|⚪|`07-putting_it_all_together`|
+       ❌|⚪|`08-flask_storage`|
+
+---
 
 ### Legend:
 
