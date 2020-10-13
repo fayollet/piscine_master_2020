@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from typing import IO, Union, List
 
 author = "courte_e"

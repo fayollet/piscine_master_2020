@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 author = "courte_e"
 
 my_int = 42

@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from typing import Any, Callable, List
 
 author = "courte_e"
