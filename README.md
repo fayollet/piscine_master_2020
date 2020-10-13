@@ -18,6 +18,17 @@ Author: *Courtel Eliot*
     ✔️|✔️|`04-detached_container`
     ✔️|❌|`05-multiple_containers`
 
+### Docker Day 02:
+  * Path: `./docker_d1`
+  * Validation:
+    Finished|Valid|Name|
+    -|-|-|
+    ✔️|⚪|`00-install_ubuntu`|
+    ✔️|⚪|`01-install_alpine`|
+    ✔️|⚪|`02-cp_files`|
+    ✔️|⚪|`03-cmd`
+    ✔️|⚪|`04-volumes`
+    ✔️|⚪|`05-dockerhub`
 
 ### Legend:
 
