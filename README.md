@@ -1,6 +1,6 @@
 # Piscine_master
 
-Year: *2020*
+Year: *2020*\
 Author: *Courtel Eliot*
 
 ## Docker
