@@ -1,9 +1,10 @@
 # Piscine_master
 
 Year: *2020*
+
 Author: *Courtel Eliot*
 
-# Docker
+## Docker
 
 ### Docker Day 01:
   * Path: `./docker_d0`
@@ -18,7 +19,7 @@ Author: *Courtel Eliot*
     ✔️|❌|`05-multiple_containers`
 
 
-## Legend:
+### Legend:
 
 Icon|-|
 -|-|
