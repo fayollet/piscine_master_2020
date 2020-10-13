@@ -4,6 +4,7 @@ author = "courte_e"
 
 
 def main():
+    """ Print arg multiplied by the index of this arg """
     print(''.join((' ' + x) * (y + 1) for y, x in enumerate(sys.argv[1:]))[1:])
 
 

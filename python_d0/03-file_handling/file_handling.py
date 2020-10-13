@@ -4,6 +4,7 @@ author = "courte_e"
 
 
 def creator(filename: str) -> IO:
+    """ Create a file if it is non-existent"""
     try:
         f = open(filename, "x")
     except Exception:
@@ -21,10 +22,12 @@ def creator(filename: str) -> IO:
 
 
 def writer(opened: IO, data: Union[str, List[str]]) -> int:
+    """ Write data in a file if not empty overwrite """
     return opened.write(data if isinstance(data, str) else '\n'.join(data))
 
 
 def closer(opened: IO) -> IO:
+    """ Close an IO """
     try:
         opened.close()
         f = True

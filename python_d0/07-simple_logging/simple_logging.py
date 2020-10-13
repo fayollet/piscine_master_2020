@@ -5,6 +5,7 @@ author = "courte_e"
 
 
 def return_arg(arg: List[str] = []):
+    """ Find and parse arguments from a list """
     a = {"level": [True, 'INFO'], "stdout": [False, False],
          "file": [True, []], "message": [True, []]}
     i = 0
@@ -26,6 +27,7 @@ def return_arg(arg: List[str] = []):
 
 
 def main():
+    """ Log into file and/or stderr and / or stdout a message """
     arg = return_arg(sys.argv[1:])
     if arg['level'] not in ['INFO', 'ERROR']:
         sys.stderr.write("unknown logging level")

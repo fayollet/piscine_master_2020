@@ -4,10 +4,12 @@ author = "courte_e"
 
 
 def nullifier(function: Callable) -> Callable:
+    """ Nullify the return of a function """
     return (lambda: None)
 
 
 def stealer(amount: int) -> Callable[[Callable], Any]:
+    """ Substract 'amount' to the return of a function """
     return (lambda function: (lambda: function() - amount))
 
 
