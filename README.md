@@ -67,8 +67,6 @@
 
 ### Legend:
 
-Icon|-|
--|-|
-⚪|waiting
-✔️| Ok
-❌| Not ok
+Icon|-|-|Icon|-|-|Icon|-|-|
+-|-|-|-|-|-|-|-|-|
+⚪|waiting||✔️| Ok||❌| Not ok|
