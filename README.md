@@ -15,7 +15,7 @@ Author: *Courtel Eliot*
     ✔️|❌|`01-docker_commands`|
     ✔️|❌|`02-docker_commands_apt`|
     ✔️|❌|`03-interactive_tty_docker`
-    ✔️|❌|`04-detached_container`
+    ✔️|✔️|`04-detached_container`
     ✔️|❌|`05-multiple_containers`
 
 
