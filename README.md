@@ -19,8 +19,9 @@ Author: *Courtel Eliot*
 
 
 ## Legend:
-    Icon|-|
-    -|-|
-    ⚪|waiting
-    ✔️| Ok
-    ❌| Not ok
+
+Icon|-|
+-|-|
+⚪|waiting
+✔️| Ok
+❌| Not ok
