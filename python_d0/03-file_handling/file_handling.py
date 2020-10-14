@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 from typing import IO, Union, List
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def creator(filename: str) -> IO:
-    """ Create a file if it is non-existent"""
+    """ Create a file if it is non-existent """
     try:
         f = open(filename, "x")
     except Exception:
@@ -29,12 +29,8 @@ def writer(opened: IO, data: Union[str, List[str]]) -> int:
 
 def closer(opened: IO) -> IO:
     """ Close an IO """
-    try:
-        opened.close()
-        f = True
-    except Exception:
-        f = False
-    if not f:
+    opened.close()
+    if not opened.closed:
         raise RuntimeError
     return opened
 

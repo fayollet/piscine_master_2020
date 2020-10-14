@@ -2,7 +2,7 @@
 import sys
 from typing import List
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def return_arg(arg: List[str] = []):

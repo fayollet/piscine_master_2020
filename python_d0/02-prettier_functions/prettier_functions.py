@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
+"""
+    prettier_function
+"""
 from typing import Any, Callable, List
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def nullifier(function: Callable) -> Callable:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def main():

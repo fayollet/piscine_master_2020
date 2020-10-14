@@ -2,7 +2,7 @@
 import csv
 from typing import List, Generator, Any
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def read_csv(filename: str, delimiter: str = ',', raise_on_error: bool = False) \

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
+import sys
 from typing import Any, Callable, List
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def printer(text: str, err: bool = False) -> int:

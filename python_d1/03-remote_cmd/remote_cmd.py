@@ -4,7 +4,7 @@ import os
 import subprocess
 import paramiko
 
-author = "courte_e"
+__author__ = "courte_e"
 
 
 def return_arg(arg=[]):

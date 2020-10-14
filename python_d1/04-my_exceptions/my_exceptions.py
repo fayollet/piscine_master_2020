@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from typing import IO, Union, List
 
-author = "courte_e"
+__author__ = "courte_e"
 
 class CustomException(BaseException):
     ''' basic exception class '''
@@ -9,10 +9,12 @@ class CustomException(BaseException):
 
 
 class UnauthorizedException(CustomException):
+    ''' t '''
     reason = "unauthorized"
 
 
 def login(user_data: dict) -> dict:
+    ''' t '''
     if 'username' not in user_data and 'password' not in user_data:
         raise ValueError
     if 'username' not in user_data or 'password' not in user_data:
@@ -23,7 +25,8 @@ def login(user_data: dict) -> dict:
 
 
 def is_admin(user_data: dict) -> bool:
-    if 'logged' not in user_data:
+    ''' t '''
+    if 'logged' not in user_data or not user['logged']:
         raise UnauthorizedException("unauthorized")
     return user_data['logged'] and user_data['username'] == 'admin'
 
