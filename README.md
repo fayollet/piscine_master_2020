@@ -38,14 +38,14 @@
     * Validation:
       Finished|Valid|Name|
       -|-|-|
-      ✔️|⚪|`00-syntax`|
-      ✔️|⚪|`01-functions`|
-      ✔️|⚪|`02-prettier_functions`|
-      ✔️|⚪|`03-file_handling`|
-      ❌|⚪|`04-purposeful_file_handling`|
-      ✔️|⚪|`05-argument_handling`|
-      ✔️|⚪|`06-better_argument_handling`|
-      ✔️|⚪|`07-simple_logging`|
+      ✔️|✔️|`00-syntax`|
+      ✔️|✔️|`01-functions`|
+      ✔️|✔️|`02-prettier_functions`|
+      ✔️|✔️|`03-file_handling`|
+      ❌|❌|`04-purposeful_file_handling`|
+      ✔️|✔️|`05-argument_handling`|
+      ✔️|❌|`06-better_argument_handling`|
+      ✔️|❌|`07-simple_logging`|
    
    
    * **Python Day 02:**
