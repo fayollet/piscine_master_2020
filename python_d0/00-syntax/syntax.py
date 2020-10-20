@@ -9,7 +9,7 @@ mty = object
 
 
 def function():
-    """ test """
+    "" " test " ""
     pass
 
 
